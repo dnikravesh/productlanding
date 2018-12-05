@@ -1,0 +1,101 @@
+body {
+    background-color: #1C2541 !important;
+    text-align: center;
+}
+
+main {
+    background-color: #F5F6FA;
+    border-radius: 2%;
+    margin-top: 100px;
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#header-img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fbox {
+    background-color: #6699cc;
+    width: 20%;
+    margin: 0 20px;
+    height: 200px;
+    border: 2px solid navy;
+    color: white;
+    border-radius: 2%;
+}
+
+.toprow {
+    background-color: #4477b2;
+    padding: 5px 5px;
+}
+
+h4 {
+    background-color: #cedcec;
+    border-radius: 40px;
+    padding-bottom: 7px;
+}
+
+.titles {
+    margin-top: 20px;
+}
+
+.price {
+  font-size: 20px;
+  
+  @media(min-width: 100%){
+    text-decoration: underline;
+   
+  }
+   
+}
+
+input, button {
+    display: block;
+    justify-content: center;
+}
+
+input {
+    width: 270px;
+}
+
+.button {
+    margin: 20px 20px;
+    padding-bottom: 20px;
+    width: 10%;
+    margin-left: 45%;
+}
+
+form {
+    margin-top: 50px;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+.fboximg {
+width: 50%;
+}
+
+#submit {
+  width: 100%;
+  
+  @media(min-width 550px) {
+    width:
+  }
+}
+
+.navbar-brand {
+  margin-left: 100px;
+}
